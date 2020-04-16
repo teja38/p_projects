@@ -1,0 +1,1190 @@
+{
+   "dataVersion":52,
+   "connections":[
+      {
+         "autoConnect":true,
+         "connectionName":"CONTROLLER",
+         "host":"tailor.cloudmqtt.com",
+         "port":22135,
+         "connectionType":"ssl",
+         "caPath":"/storage/emulated/0/Download/addtrustexternalcaroot.crt",
+         "defaultDevice":"device_0",
+         "clientId":"jPrAwEKv7G",
+         "connectionTimeout":30,
+         "keepAlive":60,
+         "connectionId":"connection_0",
+         "devices":[
+            {
+               "deviceId":"device_0",
+               "deviceName":"LIVING  HALL     ●●●●●● (ಮುಖ್ಯ ವಾಸಕೋಣೆ )",
+               "devicePrefixTopic":"",
+               "deviceIcon":"apps",
+               "deviceColor":"#E91E63",
+               "remoteDevice":{
+                  "enableStatus":false
+               
+},
+               "panels":[
+                  {
+                     "titleAlignment":"center",
+                     "panelName":"LIGHTS (ದೀಪಗಳು)",
+                     "fontSize":"20",
+                     "panelId":"panel_2",
+                     "type":"layout-decorator",
+                     "panelWidth":"100",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "iconOn":"bulb_open",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"bulb_open",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Chandelier",
+                     "topic":"home/hall/light",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_16",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Chandelier",
+                     "topic":"home/hall/light",
+                     "seperateSubscribeTopic":"home/hall/light",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_17",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"bulb_on",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"bulb_off",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Wall Light",
+                     "topic":"home/hall/dimlight",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_18",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Wall Light",
+                     "topic":"home/hall/dimlight",
+                     "seperateSubscribeTopic":"home/hall/dimlight",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_19",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "panelName":"MISCELLANEOUS (ವಿವಿಧ)",
+                     "titleAlignment":"center",
+                     "fontSize":"20",
+                     "panelId":"panel_8",
+                     "type":"layout-decorator",
+                     "panelWidth":"100",
+                     "panelMergeClass":"merge-left merge-right   merge-bottom"
+                  
+},
+                  {
+                     "iconOn":"cooler",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"power_settings_new",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"AC (ಎಸಿ)",
+                     "topic":"home/hall/ac",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_20",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"AC (ಎಸಿ)",
+                     "topic":"home/hall/ac",
+                     "seperateSubscribeTopic":"home/hall/ac",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_10",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"fan_on",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"fan_off",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"FAN (ಪಂಖ)",
+                     "topic":"home/hall/fan",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_21",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"FAN (ಪಂಖ)",
+                     "topic":"home/hall/fan",
+                     "seperateSubscribeTopic":"home/hall/fan",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_15",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "firstColor":"#009600",
+                     "secondColor":"#fac800",
+                     "thirdColor":"#ff5722",
+                     "panelName":"Temperature (ತಾಪಮಾನ)",
+                     "topic":"home/dash/hall/temp",
+                     "payloadMin":0,
+                     "payloadMax":100,
+                     "unit":"°C",
+                     "qos":0,
+                     "firstColorEnd":25,
+                     "secondColorEnd":50,
+                     "panelId":"panel_22",
+                     "type":"gauge",
+                     "panelWidth":"100",
+                     "panelMergeClass":"merge-left merge-right   merge-bottom",
+                     "showReceivedTimeStamp":true
+                  
+},
+                  {
+                     "topic":"home/dash/hall/humid",
+                     "panelName":"Humidity (ಆರ್ದ್ರತೆ)",
+                     "payloadMin":0,
+                     "payloadMax":100,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_24",
+                     "type":"linear-progress",
+                     "panelWidth":"100",
+                     "qos":1,
+                     "unit":"%",
+                     "panelMergeClass":"merge-left merge-right  merge-bottom"
+                  
+},
+                  {
+                     "showReceivedTimeStamp":true,
+                     "panelName":"Notice",
+                     "topic":"home/hall/notice",
+                     "qos":1,
+                     "showLatestMsgOnly":false,
+                     "panelId":"panel_25",
+                     "type":"log",
+                     "logLength":4,
+                     "panelWidth":"100",
+                     "hideTopic":true,
+                     "fontSize":"20"
+                  
+}
+               
+],
+               "lockPanels":false
+            
+},
+            {
+               "deviceId":"device_1",
+               "deviceName":"BEDROOM   ●●● (ಮುಖ್ಯ ಕೊಠಡಿ)",
+               "devicePrefixTopic":"",
+               "deviceIcon":"door_open",
+               "deviceColor":"#9C27B0",
+               "remoteDevice":{
+                  "enableStatus":false
+               
+},
+               "panels":[
+                  {
+                     "panelName":"LIGHTS (ದೀಪಗಳು)",
+                     "titleAlignment":"center",
+                     "fontSize":"20",
+                     "panelId":"panel_0",
+                     "type":"layout-decorator",
+                     "panelWidth":"100",
+                     "panelMergeClass":"   merge-bottom"
+                  
+},
+                  {
+                     "iconOn":"street_light",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"street_light",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Wall Light",
+                     "topic":"home/room1/light",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_1",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Wall Light",
+                     "topic":"home/room1/light",
+                     "seperateSubscribeTopic":"home/room1/light",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_2",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"bulb_xenon",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"bulb_xenon",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Night Light",
+                     "topic":"home/room1/dimlight",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_3",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Night Light",
+                     "topic":"home/room1/dimlight",
+                     "seperateSubscribeTopic":"home/room1/dimlight",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_4",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"bulb_on",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"bulb_off",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Rest Room",
+                     "topic":"home/room1/bathroom/light",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_12",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Rest room",
+                     "topic":"home/room1/bathroom/light",
+                     "seperateSubscribeTopic":"home/room1/bathroom/light",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_13",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "panelName":"MISCELLANEOUS (ವಿವಿಧ)",
+                     "titleAlignment":"center",
+                     "fontSize":"20",
+                     "panelId":"panel_5",
+                     "type":"layout-decorator",
+                     "panelWidth":"100",
+                     "panelMergeClass":"merge-left merge-right   merge-bottom"
+                  
+},
+                  {
+                     "iconOn":"cooler",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"power_settings_new",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"AC (ಎಸಿ)",
+                     "topic":"home/room1/ac",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_6",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"AC (ಎಸಿ)",
+                     "topic":"home/room1/ac",
+                     "seperateSubscribeTopic":"home/room1/ac",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_7",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true,
+                     "confirmBeforePublish":false,
+                     "confirmationMessage":"Turn Off?"
+                  
+},
+                  {
+                     "iconOn":"fan_on",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"fan_off",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"FAN (ಪಂಖ)",
+                     "topic":"home/room1/fan",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_8",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"FAN (ಪಂಖ)",
+                     "topic":"home/room1/fan",
+                     "seperateSubscribeTopic":"home/room1/fan",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_9",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"water_heater",
+                     "iconColorOn":"#53dd00",
+                     "iconOff":"water_heater",
+                     "iconColorOff":"#706868",
+                     "panelName":"GEYSER (ಗೀಸರ್)",
+                     "topic":"home/room1/bathroom/geyser",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_10",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"GEYSER (ಗೀಸರ್)",
+                     "topic":"home/room1/bathroom/geyser",
+                     "seperateSubscribeTopic":"home/room1/bathroom/geyser",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_11",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "showReceivedTimeStamp":true,
+                     "panelName":"Notice",
+                     "topic":"home/room1/notice",
+                     "qos":1,
+                     "showLatestMsgOnly":false,
+                     "panelId":"panel_14",
+                     "type":"log",
+                     "logLength":3,
+                     "panelWidth":"100",
+                     "hideTopic":true,
+                     "fontSize":"20"
+                  
+}
+               
+],
+               "lockPanels":false
+            
+},
+            {
+               "deviceId":"device_7",
+               "deviceName":"KITCHEN (ಅಡಿಗೆ ಮನೆ)",
+               "devicePrefixTopic":"",
+               "deviceIcon":"restaurant",
+               "deviceColor":"#F6B53F",
+               "remoteDevice":{
+                  "enableStatus":false
+               
+},
+               "panels":[
+                  {
+                     "panelName":"LIGHTS (ದೀಪಗಳು)",
+                     "titleAlignment":"center",
+                     "fontSize":"20",
+                     "panelId":"panel_0",
+                     "type":"layout-decorator",
+                     "panelWidth":"100",
+                     "panelMergeClass":"   merge-bottom"
+                  
+},
+                  {
+                     "iconOn":"bulb_on",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"bulb_off",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Light",
+                     "topic":"home/kitchen/light",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_1",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Light",
+                     "topic":"home/kitchen/light",
+                     "seperateSubscribeTopic":"home/kitchen/light",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_2",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"extractor_hood",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"extractor_hood",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Chimney",
+                     "topic":"home/kitchen/chimney",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_3",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Chimney",
+                     "topic":"home/kitchen/chimney",
+                     "seperateSubscribeTopic":"home/kitchen/chimney",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_4",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"wb_sunny",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"radio_button_unchecked",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Roof Light",
+                     "topic":"home/kitchen/dimlight",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_12",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Roof Light",
+                     "topic":"home/kitchen/dimlight",
+                     "seperateSubscribeTopic":"home/kitchen/dimlight",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_13",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "panelName":"MISCELLANEOUS (ವಿವಿಧ)",
+                     "titleAlignment":"center",
+                     "fontSize":"20",
+                     "panelId":"panel_5",
+                     "type":"layout-decorator",
+                     "panelWidth":"100",
+                     "panelMergeClass":"merge-left merge-right   merge-bottom"
+                  
+},
+                  {
+                     "iconOn":"toys",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"toys",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"EXHAUST",
+                     "topic":"home/kitchen/exhaust",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_8",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"EXHAUST",
+                     "topic":"home/kitchen/exhaust",
+                     "seperateSubscribeTopic":"home/kitchen/exhaust",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_9",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"microwave",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"power_settings_new",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"OVEN",
+                     "topic":"home/kitchen/oven",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_6",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"OVEN",
+                     "topic":"home/kitchen/oven",
+                     "seperateSubscribeTopic":"home/kitchen/oven",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_7",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"switch_on",
+                     "iconColorOn":"rgba(255, 252, 30, 0.79)",
+                     "iconOff":"switch_off",
+                     "iconColorOff":"#706868",
+                     "panelName":"SOCKET",
+                     "topic":"home/kitchen/socket",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_10",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"STOVE",
+                     "topic":"home/kitchen/socket",
+                     "seperateSubscribeTopic":"home/kitchen/socket",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_11",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "showReceivedTimeStamp":true,
+                     "panelName":"Notice",
+                     "topic":"home/kitchen/notice",
+                     "qos":1,
+                     "showLatestMsgOnly":false,
+                     "panelId":"panel_14",
+                     "type":"log",
+                     "logLength":2,
+                     "panelWidth":"100",
+                     "hideTopic":true,
+                     "fontSize":"20"
+                  
+}
+               
+]
+            
+},
+            {
+               "deviceId":"device_8",
+               "deviceName":"OUTDOOR  ●●● (ಹೊರಾಂಗಣ)",
+               "devicePrefixTopic":"",
+               "deviceIcon":"street_light",
+               "deviceColor":"#9C27B0",
+               "remoteDevice":{
+                  "enableStatus":false
+               
+},
+               "panels":[
+                  {
+                     "panelName":"LIGHTS (ದೀಪಗಳು)",
+                     "titleAlignment":"center",
+                     "fontSize":"20",
+                     "panelId":"panel_0",
+                     "type":"layout-decorator",
+                     "panelWidth":"100",
+                     "panelMergeClass":"   merge-bottom"
+                  
+},
+                  {
+                     "iconOn":"street_light",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"street_light",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Compound Light",
+                     "topic":"home/outdoor/compound",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_1",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Compound Light",
+                     "topic":"home/outdoor/compound",
+                     "seperateSubscribeTopic":"home/outdoor/compound",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_2",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"bulb_cfl_spiral",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"bulb_cfl_spiral",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Parking Light",
+                     "topic":"home/outdoor/parking",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_3",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Parking Light",
+                     "topic":"home/outdoor/parking",
+                     "seperateSubscribeTopic":"home/outdoor/parking",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_4",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"arrow_upward",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"arrow_downward",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Water Pump",
+                     "topic":"home/outdoor/pump",
+                     "payloadOn":"on",
+                     "payloadOff":"off",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_12",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"ON",
+                           "payload":"on"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"OFF",
+                           "payload":"off"
+                        
+}
+                     
+],
+                     "panelName":"Water Pump",
+                     "topic":"home/outdoor/pump",
+                     "seperateSubscribeTopic":"home/outdoor/pump",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_13",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true
+                  
+},
+                  {
+                     "iconOn":"dehaze",
+                     "iconColorOn":"#ddd947",
+                     "iconOff":"dehaze",
+                     "iconColorOff":"#e00d0d",
+                     "panelName":"Gate",
+                     "topic":"home/outdoor/gate",
+                     "payloadOn":"open",
+                     "payloadOff":"close",
+                     "qos":1,
+                     "showReceivedTimeStamp":true,
+                     "panelId":"panel_6",
+                     "type":"led",
+                     "panelWidth":"50",
+                     "retain":false,
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom"
+                  
+},
+                  {
+                     "options":[
+                        {
+                           "$$hashKey":"object:35725",
+                           "label":"OPEN",
+                           "payload":"open"
+                        
+},
+                        {
+                           "$$hashKey":"object:35726",
+                           "label":"CLOSE",
+                           "payload":"close"
+                        
+}
+                     
+],
+                     "panelName":"Gate",
+                     "topic":"home/outdoor/gate",
+                     "seperateSubscribeTopic":"home/outdoor/gate",
+                     "qos":1,
+                     "retain":true,
+                     "panelId":"panel_7",
+                     "type":"radio-button",
+                     "panelWidth":"50",
+                     "panelMergeClass":"merge-left merge-right merge-top merge-bottom",
+                     "showReceivedTimeStamp":true,
+                     "showSentTimeStamp":true,
+                     "confirmBeforePublish":false,
+                     "confirmationMessage":"Turn Off?"
+                  
+},
+                  {
+                     "showReceivedTimeStamp":true,
+                     "panelName":"Notice",
+                     "topic":"home/outdoor/notice",
+                     "qos":1,
+                     "showLatestMsgOnly":false,
+                     "panelId":"panel_14",
+                     "type":"log",
+                     "logLength":2,
+                     "panelWidth":"100",
+                     "hideTopic":true,
+                     "fontSize":"20"
+                  
+}
+               
+]
+            
+}
+         
+],
+         "userName":"username_change_me",
+         "password":"password_change_me"
+      
+}
+   
+]
+}

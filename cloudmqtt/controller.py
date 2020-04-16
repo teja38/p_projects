@@ -7,17 +7,27 @@ def on_message(client3, userdata, message):
  #------------------------------------------------------------------------   
  # ------------------------Hall-------------------------------------------
  #------------------------------------------------------------------------
+ 
+ # update the status about device
+ if str(message.topic)=="lhome/dash/hall/status" :
+   client.publish("home/hall/notice",str(message.payload.decode("utf-8")))
+ if str(message.topic)=="lhome/dash/kitchen/status" :
+   client.publish("home/kitchen/notice",str(message.payload.decode("utf-8")))
+ if str(message.topic)=="lhome/dash/kitchen/status" :
+   client.publish("home/room1/notice",str(message.payload.decode("utf-8")))
+ if str(message.topic)=="lhome/dash/outdoor/status" :
+   client.publish("home/outdoor/notice",str(message.payload.decode("utf-8")))
    #-- Weather
  if str(message.topic)=="lhome/dash/hall/temp" :
    print("Portion of the House -->=",str(message.topic))
-   print("Message from CloudMqtt =",str(message.payload.decode("utf-8")))
+   print(" ******* Temperature ********** =",str(message.payload.decode("utf-8")))
    if str(message.payload.decode("utf-8"))=="on":
      client.publish("home/dash/hall/temp",str(message.payload.decode("utf-8")))
    else :
     client.publish("home/dash/hall/temp",str(message.payload.decode("utf-8")))
  if str(message.topic)=="lhome/dash/hall/humid" :
    print("Portion of the House -->=",str(message.topic))
-   print("Message from CloudMqtt =",str(message.payload.decode("utf-8")))
+   print("************ Humidity ********* =",str(message.payload.decode("utf-8")))
    if str(message.payload.decode("utf-8"))=="on":
      client.publish("home/dash/hall/humid",str(message.payload.decode("utf-8")))
    else :
@@ -208,7 +218,7 @@ def on_log(client, userdata, level, buf):
 
 def on_connect(client, userdata, flags, rc):
  if str(rc)=="0":
-  client.publish("home/hall/notice","connected!",)
+  client.publish("home/hall/notice","Connected")
   print(" ------- CONNECTED TO -----> ",client.userdata)
 
 def on_subscribe(mosq, obj, mid, granted_qos):
