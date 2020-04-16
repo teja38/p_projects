@@ -225,7 +225,7 @@ client.on_subscribe = on_subscribe
 print("connecting to cloudmqtt broker")
 client.tls_set("cloudmqttcert.crt", tls_version=ssl.PROTOCOL_TLSv1_2)
 client.tls_insecure_set(True)
-client.username_pw_set("loqbvlsz", "XN6k4Hkf53OA")
+client.username_pw_set("username", "password")
 client.connect('tailor.cloudmqtt.com', 22135, 60)   
 
 
