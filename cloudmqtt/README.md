@@ -1,3 +1,6 @@
+NOTE :: This project is for learning purpose only
+
+
 This controller.py is for communicating the messages between local broker to cloud broker.
 
 
