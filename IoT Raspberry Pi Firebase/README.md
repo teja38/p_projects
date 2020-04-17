@@ -1,6 +1,7 @@
 1. Create firebase account
 2. Generate new private key and provide that in the cred section in the code.
-
+3. Provide the database url in the given code.
+4. pip install firebase-admin
 
 
 Sample code 
