@@ -66,7 +66,7 @@ box_dbref.update({
 
 
 #Update multiple data at a time
-
+# ---- use this logic to update the data retrieved from the sensor ( DHT 11/12 , Barometer , Gas sensor)
 dbref = db.dbreference('Home')
 dbref.update({
     'Kitchen/light': 'on',
@@ -90,6 +90,6 @@ print(emp_key)
 
 
 # Get the data and displayed in the console. i.e. Home will display entire json and home/outdoor will display only that child node.
-
+#---- Use this logic to get the input from firebase db and control the appliances
 dbref = db.dbreference('Home')
 print(dbref.get())
