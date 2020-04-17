@@ -4,16 +4,13 @@ from firebase_admin import db
 
 
 cred = credentials.Certificate("auth.json")
-#default_app =firebase_admin.initialize_app(cred)
-#print(default_app.name)
-
-# Initialize the app with a service account
 default_app=firebase_admin.initialize_app(cred, {'databaseURL': '<firebase database url>'})
 print(default_app.name)
 
+#update or create json table with below data.
 
-ref = db.reference('/')
-ref.set({
+dbref = db.dbreference('/')
+dbref.set({
         'Home':
             {
                 'Hall': {
@@ -60,42 +57,39 @@ ref.set({
 
 
 
-#updating data
-ref = db.reference('Home')
-box_ref = ref.child('Outdoor')
-box_ref.update({
+#updating data particular to one node
+dbref = db.dbreference('Home')
+box_dbref = dbref.child('Outdoor')
+box_dbref.update({
     'waterPump': 'off'
 })
 
 
-#working with mullti path update
+#Update multiple data at a time
 
-ref = db.reference('Home')
-ref.update({
+dbref = db.dbreference('Home')
+dbref.update({
     'Kitchen/light': 'on',
     'Outdoor/borewellPump': 'off'
 })
 
 
-#adding data in second way you can create the key
-
-
-ref = db.reference('Home')
-# Generate a reference to a location 
-emp_ref = ref.push({
+dbref = db.dbreference('Home')
+# Generating key randomly and insert new data mentioned down
+emp_dbref = dbref.push({
     'Technology': 'IoT',
     'Home': "UmbrellaPix",
     'Device': 'RapsberryPI'
 
 })
 
-# Get the unique key generated
-emp_key = emp_ref.key
+# Randomly generated unique key and will be used in the program dynamically can be used.
+emp_key = emp_dbref.key
 print(emp_key)
 
 
 
-#retreiving data
+# Get the data and displayed in the console. i.e. Home will display entire json and home/outdoor will display only that child node.
 
-ref = db.reference('Home')
-print(ref.get())
+dbref = db.dbreference('Home')
+print(dbref.get())
